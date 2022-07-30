@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #777;
+}
+
+.popup {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+.nav-bar ul li{
+margin: 0px 10px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.main-container{
+    gap: 20px;
+}
+
+main .content {
+  display: grid;
+}
+
+.sidebar ul li{
+    background-color: #666;
+}
+
+.main-content-image {
+  float: left;
+  margin: 0px 20px 10px 0px;
+}
+
+.sidebar,main{
+}
+
